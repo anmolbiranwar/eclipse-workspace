@@ -1,7 +1,6 @@
 <h1 align="center">Hi 👋, I'm Anmol Biranwar</h1>
 <h3 align="center">This file contains my Automation Testing Practice and Project, which I have been working on for the past few months. My goal is to gain experience in automation testing by writing test scripts that can be used to validate applications and systems. Through this practice, I am able to develop a strong understanding of how automation works and become more proficient in its use. Additionally, I am also learning about different software tools that are available for use with automated testing processes. This project has allowed me the opportunity to apply what I have learned so far into real-world scenarios while further developing my skillset as an automation tester.</h3>
 
-<h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
 
