@@ -1,0 +1,34 @@
+package program1;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class TC_Frames {
+
+	public static void main(String[] args) throws InterruptedException {
+	System.setProperty("webdriver.chrome.driver","C:\\Users\\Abc\\eclipse-workspace\\SureshSirs\\Drivers\\chromedriver.exe");
+	WebDriver driver=new ChromeDriver();
+	driver.navigate().to("http://183.82.103.245/nareshit/login.php");
+	System.out.println(driver.getTitle());
+	driver.findElement(By.name("txtUsername")).sendKeys("nareshit");
+	driver.findElement(By.name("txtPassword")).sendKeys("nareshit");
+	driver.findElement(By.name("Submit")).click();
+	Thread.sleep(3000);
+	System.out.println("Login Completed");
+	//Click on Add Button
+	driver.findElement(By.xpath("//input[@value='Add']")).click();
+	driver.findElement(By.name("txtEmpFirstName")).sendKeys("Selenium");
+	driver.findElement(By.name("txtEmpLastName")).sendKeys("Suresh");
+	//Click on Save Button
+	driver.findElement(By.id("btnEdit")).click();
+	System.out.println("New Emp Added");
+	Thread.sleep(3000);
+	driver.findElement(By.linkText("Logout")).click();
+	System.out.println("Logout Completed");
+	Thread.sleep(3000);
+	driver.close();
+	
+	}
+
+}

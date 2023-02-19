@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression1(failed)">
+    <classes>
+      <class name="com.onlineBank.testscripts.TC005">
+        <methods>
+          <include name="tc005"/>
+        </methods>
+      </class> <!-- com.onlineBank.testscripts.TC005 -->
+      <class name="com.onlineBank.testscripts.TC002_BranchReg">
+        <methods>
+          <include name="tc002"/>
+        </methods>
+      </class> <!-- com.onlineBank.testscripts.TC002_BranchReg -->
+      <class name="com.onlineBank.testscripts.TC001_LoginLogout">
+        <methods>
+          <include name="tc001"/>
+        </methods>
+      </class> <!-- com.onlineBank.testscripts.TC001_LoginLogout -->
+      <class name="com.onlineBank.testscripts.TC003_RegisterEmp">
+        <methods>
+          <include name="tc003"/>
+        </methods>
+      </class> <!-- com.onlineBank.testscripts.TC003_RegisterEmp -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

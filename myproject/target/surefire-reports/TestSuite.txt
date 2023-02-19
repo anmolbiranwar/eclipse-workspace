@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 17.066 s <<< FAILURE! - in TestSuite
+com.sdet.AppTest.testlogin1  Time elapsed: 0.02 s  <<< FAILURE!
+java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key username
+	at com.sdet.AppTest.testlogin1(AppTest.java:12)
+
+com.sdet.AppTest.testlogin2  Time elapsed: 0 s  <<< FAILURE!
+java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key username
+	at com.sdet.AppTest.testlogin2(AppTest.java:19)
+

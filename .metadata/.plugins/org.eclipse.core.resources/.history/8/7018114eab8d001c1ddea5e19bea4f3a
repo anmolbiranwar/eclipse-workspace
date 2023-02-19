@@ -1,0 +1,14 @@
+package com.hrms;
+
+import org.openqa.selenium.WebDriver;
+
+public class StepDef {
+	public WebDriver driver;
+	@Given(|"^Open Application$")
+	public void openApplication()
+	{
+		
+	}
+	
+
+}

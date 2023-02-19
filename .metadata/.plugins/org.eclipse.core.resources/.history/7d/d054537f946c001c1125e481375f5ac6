@@ -1,0 +1,13 @@
+package mypackage;
+
+import org.openqa.selenium.WebDriver;
+
+public class FileUpload {
+
+	public static void main(String[] args) {
+		WebDriver driver=new WebCommons().launchApplicationAndGetDriver("chrome","https://demoqa.com/upload-download");
+		
+
+	}
+
+}

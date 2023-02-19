@@ -1,0 +1,24 @@
+package javaPrac;
+
+public class ConstructorOverloadinProgram {
+
+	public static void main(String[] args) {
+		/*Constructor: 1-constructor is special kind of method
+		 *2-Constructor name should be same as class name.
+		 *3-constructor will not return any value
+		 *4-constructor will be invoked at the time object creation.(we no need to call the constructor explicitly).
+		 *5-constructor will take the parameters(just like a method)
+		 *6-constructor is used for initialize the values
+		 Constructor name should be same as the class name.
+		 1)default constructor -no parameter
+		 2)parameterized constructor -with parameter
+		 
+		 * Constructor Overloading: A class contains more than one constructor is called Constructor Overloading.	
+    Rule1: Number of parameters
+	Rule2: Order of parameters
+	Rule3: Data types of parameters
+		 
+		 */
+	}
+
+}

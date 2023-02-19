@@ -1,0 +1,28 @@
+package javaPrac;
+
+public class StringExample {
+
+	public static void main(String[] args) {
+		
+		String s="Welcome";
+		System.out.println(s.length());//7 number of characters in the string
+		
+		//Concatenation
+		
+		String s1="Welcome to";
+		String s2="Training";
+		System.out.println(s1+" "+s2);
+		System.out.println(s1.concat(" "+s2));
+		System.out.println("Anmol "+"Biranwar");
+		System.out.println("Anmol".concat(" Biranwar"));
+		
+		//Equals it returns only true or false
+		
+		String s3="Welcome";
+		String s4="welcome";
+		System.out.println(s3.equals(s4));
+		
+
+	}
+
+}

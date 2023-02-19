@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Application opened]]>
+    </line>
+    <line>
+      <![CDATA[OrangeHRM - New Level of HR Management]]>
+    </line>
+    <line>
+      <![CDATA[Login Completed]]>
+    </line>
+    <line>
+      <![CDATA[Logout Completed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-02-04T17:31:07Z" name="Default suite" finished-at="2022-02-04T17:31:20Z" duration-ms="13611">
+    <groups>
+    </groups>
+    <test started-at="2022-02-04T17:31:07Z" name="Default test" finished-at="2022-02-04T17:31:20Z" duration-ms="13611">
+      <class name="testngExamples.Exp_Wd_Testng">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:testngExamples.Exp_Wd_Testng@5e403b4a]" started-at="2022-02-04T17:31:07Z" name="startUp" finished-at="2022-02-04T17:31:10Z" duration-ms="3468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="TC001()[pri:0, instance:testngExamples.Exp_Wd_Testng@5e403b4a]" started-at="2022-02-04T17:31:10Z" name="TC001" finished-at="2022-02-04T17:31:20Z" duration-ms="9847" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application opened]]>
+            </line>
+            <line>
+              <![CDATA[OrangeHRM - New Level of HR Management]]>
+            </line>
+            <line>
+              <![CDATA[Login Completed]]>
+            </line>
+            <line>
+              <![CDATA[Logout Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC001 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngExamples.Exp_Wd_Testng@5e403b4a]" started-at="2022-02-04T17:31:20Z" name="tearDown" finished-at="2022-02-04T17:31:20Z" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testngExamples.Exp_Wd_Testng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-16">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Software testing software/Selenium Libraries/Selenium Libraries/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="C:/Software testing software/Selenium Libraries/Selenium Libraries/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Software testing software/Selenium Libraries/Selenium Libraries/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Software testing software/Selenium Libraries/Selenium Libraries/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Software testing software/Selenium Libraries/Selenium Libraries/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Software testing software/Selenium Libraries/Selenium Libraries/cucumber-java-6.9.1.jar"/>
+	<classpathentry kind="lib" path="C:/Software testing software/Selenium Libraries/Selenium Libraries/cucumber-junit-6.9.1.jar"/>
+	<classpathentry kind="lib" path="C:/Software testing software/Selenium Libraries/Selenium Libraries/extentreports-3.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Software testing software/Selenium Libraries/Selenium Libraries/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Software testing software/Selenium Libraries/Selenium Libraries/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Software testing software/Selenium Libraries/Selenium Libraries/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Software testing software/Selenium Libraries/Selenium Libraries/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Software testing software/Selenium Libraries/Selenium Libraries/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Software testing software/Selenium Libraries/Selenium Libraries/testng-6.14.3.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Software testing software/Selenium Libraries/Selenium Libraries/log4j.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
